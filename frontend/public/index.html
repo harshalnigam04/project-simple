@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Form</title>
+</head>
+<body>
+
+  <h1>User Registration</h1>
+  <p>Only your name and email will be saved.</p>
+
+  <hr>
+
+  <form action="/submit" method="POST">
+
+    <p>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" size="30" required>
+    </p>
+
+    <p>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" size="30" required>
+    </p>
+
+    <p>
+      <button type="submit">Submit</button>
+    </p>
+
+  </form>
+
+  <hr>
+  <small>Express frontend → Flask backend</small>
+
+</body>
+</html>
